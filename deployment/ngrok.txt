@@ -1,0 +1,13 @@
+from pyngrok import ngrok
+
+# Authenticate (only once per machine)
+ngrok.set_auth_token("32SgHKCG1V5LoWVT2WvJLm8mbLb_YqdkZGJZp8iwBcfgD41W")
+
+# Start a tunnel
+public_url = ngrok.connect(8501)
+print("Public URL:", public_url)
+
+# Keep script alive
+import time
+while True:
+    time.sleep(1)
