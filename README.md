@@ -9,8 +9,10 @@ It predicts the likelihood of heart disease based on input health parameters.
 --------------------------------
 
 Heart_Disease_Project/
+
 │── data/
 │ ├── heart_disease.csv
+
 │── notebooks/
 │ ├── 01_data_preprocessing.ipynb
 │ ├── 02_pca_analysis.ipynb
@@ -18,16 +20,23 @@ Heart_Disease_Project/
 │ ├── 04_supervised_learning.ipynb
 │ ├── 05_unsupervised_learning.ipynb
 │ ├── 06_hyperparameter_tuning.ipynb
+
 │── models/
 │ ├── final_model.pkl
+
 │── ui/
 │ ├── app.py (Streamlit UI)
+
 │── deployment/
 │ ├── ngrok_setup.txt
+
 │── results/
 │ ├── evaluation_metrics.txt
+
 │── README.md
+
 │── requirements.txt
+
 │── .gitignore
 
 --------------------------------
