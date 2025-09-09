@@ -23,11 +23,9 @@ Or install manually:
 ▶️ Running the Project
 --------------------------------
 
-1. Start the Streamlit app:
-    streamlit run app.py
+1. Start the Streamlit app: streamlit run app.py
 
-This will launch the app locally at:
-    http://localhost:8501
+This will launch the app locally at: http://localhost:8501
 
 2. Expose to the internet with Ngrok
 
